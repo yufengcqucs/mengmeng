@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/showflower_mainpage"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:id="@+id/flowermanager_line1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#fff"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+    </LinearLayout>    
+    
+    <LinearLayout
+        android:id="@+id/flowermanager_line2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#fff"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/flowermanager_line3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#fff"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+</LinearLayout>
