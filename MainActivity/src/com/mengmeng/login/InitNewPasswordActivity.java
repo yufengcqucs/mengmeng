@@ -1,4 +1,9 @@
-package com.stone.card;
+package com.mengmeng.login;
+
+import com.stone.card.MainActivity;
+import com.stone.card.R;
+import com.stone.card.R.id;
+import com.stone.card.R.layout;
 
 import android.app.Activity;
 import android.content.Intent;

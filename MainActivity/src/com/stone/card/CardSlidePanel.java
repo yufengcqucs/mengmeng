@@ -3,7 +3,7 @@ package com.stone.card;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.ifriend.listener.ShowDetailInfoActivity;
+import com.mengmeng.userinfo.ShowDetailInfoActivity;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

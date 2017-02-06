@@ -17,7 +17,7 @@
             android:layout_marginTop="0dp"
             android:gravity="center" >
 
-            <com.ifriend.viewer.RoundImageView
+            <com.mengmeng.common.RoundImageView
                 android:id="@+id/setting_person_icon_btn"
                 android:layout_width="50dp"
                 android:layout_height="50dp"

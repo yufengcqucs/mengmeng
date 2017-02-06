@@ -1,4 +1,9 @@
-package com.stone.card;
+package com.mengmeng.login;
+
+import org.xutils.x;
+import org.xutils.view.annotation.ContentView;
+
+import com.stone.card.R;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,20 +13,15 @@ import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.Button;
 
+@ContentView(R.layout.start_main)
 public class StartActionActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
-		setContentView(R.layout.start_main);
-
-		// 如果验证已经登录则跳过步骤
-		/*
-		 * boolean isLogin = true; if (isLogin) { Intent intent = new
-		 * Intent(StartActionActivity.this, LoginActivity.class);
-		 * startActivity(intent); return; }
-		 */
+		x.view().inject(this);
+		//setContentView(R.layout.start_main);
 
 		// 登录按钮
 		Button loginBtn = (Button) findViewById(R.id.login_btn);

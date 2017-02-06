@@ -1,8 +1,8 @@
 package com.stone.card;
 
-import com.ifriend.listener.CustomInfoActivity;
-import com.ifriend.viewer.RoundImageView;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
+import com.mengmeng.common.RoundImageView;
+import com.mengmeng.userinfo.CustomInfoActivity;
 import com.nostra13.universalimageloader.cache.disc.naming.HashCodeFileNameGenerator;
 import com.nostra13.universalimageloader.cache.memory.impl.LruMemoryCache;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.ifriend.viewer;
+package com.mengmeng.common;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -17,8 +17,7 @@ import android.util.AttributeSet;
 import android.widget.ImageView;
 
 /**
- * @author yufengcqucs
- *
+ * 圆形头像使用到的view
  */
 public class RoundImageView extends ImageView {
 	private Paint paint;
@@ -40,7 +39,6 @@ public class RoundImageView extends ImageView {
 	/**
 	 * 绘制圆形图片
 	 * 
-	 * @author caizhiming
 	 */
 	@Override
 	protected void onDraw(Canvas canvas) {
@@ -65,7 +63,6 @@ public class RoundImageView extends ImageView {
 	 * @param bitmap
 	 * @param pixels
 	 * @return Bitmap
-	 * @author caizhiming
 	 */
 	private Bitmap getCircleBitmap(Bitmap bitmap, int pixels) {
 		Bitmap output = Bitmap.createBitmap(bitmap.getWidth(), bitmap.getHeight(), Config.ARGB_8888);

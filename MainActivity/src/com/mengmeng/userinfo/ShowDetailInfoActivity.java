@@ -1,4 +1,4 @@
-package com.ifriend.listener;
+package com.mengmeng.userinfo;
 
 import java.util.ArrayList;
 import java.util.List;
